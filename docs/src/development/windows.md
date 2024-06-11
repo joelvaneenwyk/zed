@@ -48,19 +48,19 @@ Once you have the dependencies installed, you can build Zed using [Cargo](https:
 
 For a debug build:
 
-```
+```bash
 cargo run
 ```
 
 For a release build:
 
-```
+```bash
 cargo run --release
 ```
 
 And to run the tests:
 
-```
+```bash
 cargo test --workspace
 ```
 
@@ -68,20 +68,20 @@ cargo test --workspace
 
 [MSYS2](https://msys2.org/) distribution provides Zed as a package. To download the prebuilt binary, run
 
-```
+```bash
 pacman -S mingw-w64-ucrt-x86_64-zed
 ```
 
-then you can run `zed` in a UCRT64 shell.
+then you can run `zed` in a `UCRT64` shell.
 
 > [!NOTE]
-> Please, report any issue in https://github.com/msys2/MINGW-packages/issues first.
+> Please, report any issue in <https://github.com/msys2/MINGW-packages/issues> first.
 
 ## Troubleshooting
 
 ### Can't compile zed
 
-Before reporting the issue, make sure that you have the latest rustc version with `rustup update`.
+Before reporting the issue, make sure that you have the latest `rustc` version with `rustup update`.
 
 ### Cargo errors claiming that a dependency is using unstable features
 
